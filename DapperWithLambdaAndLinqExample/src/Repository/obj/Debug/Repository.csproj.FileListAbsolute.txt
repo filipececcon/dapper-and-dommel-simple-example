@@ -1,0 +1,15 @@
+C:\Users\felipe.alencar\Documents\Visual Studio 2015\Projects\DapperWithLambdaAndLinqExample\src\Repository\bin\Debug\Repository.dll
+C:\Users\felipe.alencar\Documents\Visual Studio 2015\Projects\DapperWithLambdaAndLinqExample\src\Repository\bin\Debug\Repository.pdb
+C:\Users\felipe.alencar\Documents\Visual Studio 2015\Projects\DapperWithLambdaAndLinqExample\src\Repository\bin\Debug\Dapper.dll
+C:\Users\felipe.alencar\Documents\Visual Studio 2015\Projects\DapperWithLambdaAndLinqExample\src\Repository\bin\Debug\Dapper.FluentMap.dll
+C:\Users\felipe.alencar\Documents\Visual Studio 2015\Projects\DapperWithLambdaAndLinqExample\src\Repository\bin\Debug\Dapper.FluentMap.Dommel.dll
+C:\Users\felipe.alencar\Documents\Visual Studio 2015\Projects\DapperWithLambdaAndLinqExample\src\Repository\bin\Debug\Domain.dll
+C:\Users\felipe.alencar\Documents\Visual Studio 2015\Projects\DapperWithLambdaAndLinqExample\src\Repository\bin\Debug\Dommel.dll
+C:\Users\felipe.alencar\Documents\Visual Studio 2015\Projects\DapperWithLambdaAndLinqExample\src\Repository\bin\Debug\Domain.pdb
+C:\Users\felipe.alencar\Documents\Visual Studio 2015\Projects\DapperWithLambdaAndLinqExample\src\Repository\bin\Debug\Dapper.xml
+C:\Users\felipe.alencar\Documents\Visual Studio 2015\Projects\DapperWithLambdaAndLinqExample\src\Repository\bin\Debug\Dapper.FluentMap.xml
+C:\Users\felipe.alencar\Documents\Visual Studio 2015\Projects\DapperWithLambdaAndLinqExample\src\Repository\bin\Debug\Dapper.FluentMap.Dommel.xml
+C:\Users\felipe.alencar\Documents\Visual Studio 2015\Projects\DapperWithLambdaAndLinqExample\src\Repository\bin\Debug\Dommel.xml
+C:\Users\felipe.alencar\Documents\Visual Studio 2015\Projects\DapperWithLambdaAndLinqExample\src\Repository\obj\Debug\Repository.csprojResolveAssemblyReference.cache
+C:\Users\felipe.alencar\Documents\Visual Studio 2015\Projects\DapperWithLambdaAndLinqExample\src\Repository\obj\Debug\Repository.dll
+C:\Users\felipe.alencar\Documents\Visual Studio 2015\Projects\DapperWithLambdaAndLinqExample\src\Repository\obj\Debug\Repository.pdb

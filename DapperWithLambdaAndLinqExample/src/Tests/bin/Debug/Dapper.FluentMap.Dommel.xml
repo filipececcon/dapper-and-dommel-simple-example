@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Dapper.FluentMap.Dommel</name>
+    </assembly>
+    <members>
+        <member name="T:Dapper.FluentMap.Dommel.FluentMapConfigurationExtensions">
+            <summary>
+            Defines methods for configured Dapper.FluentMap.Dommel.
+            </summary>
+        </member>
+        <member name="M:Dapper.FluentMap.Dommel.FluentMapConfigurationExtensions.ForDommel(Dapper.FluentMap.Configuration.FluentMapConfiguration)">
+            <summary>
+            Configures the specified configuration for Dapper.FluentMap.Dommel.
+            </summary>
+            <param name="config">The Dapper.FluentMap configuration.</param>
+            <returns>The Dapper.FluentMap configuration.</returns>
+        </member>
+        <member name="T:Dapper.FluentMap.Dommel.Mapping.IDommelEntityMap">
+            <summary>
+            Represents a non-typed mapping of an entity for Dommel.
+            </summary>
+        </member>
+        <member name="P:Dapper.FluentMap.Dommel.Mapping.IDommelEntityMap.TableName">
+            <summary>
+            Gets the table name for the current entity.
+            </summary>
+        </member>
+        <member name="T:Dapper.FluentMap.Dommel.Mapping.DommelEntityMap`1">
+            <summary>
+            Represents the typed mapping of an entity for Dommel.
+            </summary>
+            <typeparam name="TEntity">The type of an entity.</typeparam>
+        </member>
+        <member name="M:Dapper.FluentMap.Dommel.Mapping.DommelEntityMap`1.GetPropertyMap(System.Reflection.PropertyInfo)">
+            <summary>
+            Gets the <see cref="T:Dapper.FluentMap.Mapping.IPropertyMap"/> implementation for the current entity map.
+            </summary>
+            <param name="info">The information about the property.</param>
+            <returns>An implementation of <see cref="T:Dapper.FluentMap.Mapping.IPropertyMap"/>.</returns>
+        </member>
+        <member name="P:Dapper.FluentMap.Dommel.Mapping.DommelEntityMap`1.TableName">
+            <summary>
+            Gets the table name for this entity map.
+            </summary>
+        </member>
+        <member name="M:Dapper.FluentMap.Dommel.Mapping.DommelEntityMap`1.ToTable(System.String)">
+            <summary>
+            Sets the table name for the current entity.
+            </summary>
+            <param name="tableName">The name of the table in the database.</param>
+        </member>
+        <member name="T:Dapper.FluentMap.Dommel.Mapping.DommelPropertyMap">
+            <summary>
+            Represents mapping of a property for Dommel.
+            </summary>
+        </member>
+        <member name="M:Dapper.FluentMap.Dommel.Mapping.DommelPropertyMap.#ctor(System.Reflection.PropertyInfo)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Dapper.FluentMap.Dommel.Mapping.DommelPropertyMap"/> class
+            with the specified <see cref="T:System.Reflection.PropertyInfo"/> object.
+            </summary>
+            <param name="info">The information about the property.</param>
+        </member>
+        <member name="P:Dapper.FluentMap.Dommel.Mapping.DommelPropertyMap.Key">
+            <summary>
+            Gets a value indicating whether this property is a primary key.
+            </summary>
+        </member>
+        <member name="M:Dapper.FluentMap.Dommel.Mapping.DommelPropertyMap.IsKey">
+            <summary>
+            Marks the current property as key for the entity.
+            </summary>
+            <returns>The current instance of <see cref="T:Dapper.FluentMap.Dommel.Mapping.DommelPropertyMap"/>.</returns>
+        </member>
+        <member name="T:Dapper.FluentMap.Dommel.Resolvers.DommelColumnNameResolver">
+            <summary>
+            Implements the <see cref="T:Dommel.DommelMapper.IColumnNameResolver"/> interface by using the configured mapping.
+            </summary>
+        </member>
+        <member name="M:Dapper.FluentMap.Dommel.Resolvers.DommelColumnNameResolver.ResolveColumnName(System.Reflection.PropertyInfo)">
+            <inheritdoc />
+        </member>
+        <member name="T:Dapper.FluentMap.Dommel.Resolvers.DommelKeyPropertyResolver">
+            <summary>
+            Implements the <see cref="T:Dommel.DommelMapper.IKeyPropertyResolver"/> interface by using the configured mapping.
+            </summary>
+        </member>
+        <member name="M:Dapper.FluentMap.Dommel.Resolvers.DommelKeyPropertyResolver.ResolveKeyProperty(System.Type)">
+            <inheritdoc />
+        </member>
+        <member name="T:Dapper.FluentMap.Dommel.Resolvers.DommelPropertyResolver">
+            <summary>
+            Implements the <see cref="T:Dommel.DommelMapper.IPropertyResolver"/> interface by using the configured mapping.
+            </summary>
+        </member>
+        <member name="M:Dapper.FluentMap.Dommel.Resolvers.DommelPropertyResolver.FilterComplexTypes(System.Collections.Generic.IEnumerable{System.Reflection.PropertyInfo})">
+            <inheritdoc />
+        </member>
+        <member name="M:Dapper.FluentMap.Dommel.Resolvers.DommelPropertyResolver.ResolveProperties(System.Type)">
+            <inheritdoc />
+        </member>
+        <member name="T:Dapper.FluentMap.Dommel.Resolvers.DommelTableNameResolver">
+            <summary>
+            Implements the <see cref="T:Dommel.DommelMapper.ITableNameResolver"/> interface by using the configured mapping.
+            </summary>
+        </member>
+        <member name="M:Dapper.FluentMap.Dommel.Resolvers.DommelTableNameResolver.ResolveTableName(System.Type)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,8 @@
+C:\Users\Filipe\Documents\Visual Studio 2015\Projects\DapperWithLambdaAndLinqExample\src\Domain\bin\Debug\Domain.dll
+C:\Users\Filipe\Documents\Visual Studio 2015\Projects\DapperWithLambdaAndLinqExample\src\Domain\bin\Debug\Domain.pdb
+C:\Users\Filipe\Documents\Visual Studio 2015\Projects\DapperWithLambdaAndLinqExample\src\Domain\obj\Debug\Domain.dll
+C:\Users\Filipe\Documents\Visual Studio 2015\Projects\DapperWithLambdaAndLinqExample\src\Domain\obj\Debug\Domain.pdb
+C:\Users\felipe.alencar\Documents\Visual Studio 2015\Projects\DapperWithLambdaAndLinqExample\src\Domain\bin\Debug\Domain.dll
+C:\Users\felipe.alencar\Documents\Visual Studio 2015\Projects\DapperWithLambdaAndLinqExample\src\Domain\bin\Debug\Domain.pdb
+C:\Users\felipe.alencar\Documents\Visual Studio 2015\Projects\DapperWithLambdaAndLinqExample\src\Domain\obj\Debug\Domain.dll
+C:\Users\felipe.alencar\Documents\Visual Studio 2015\Projects\DapperWithLambdaAndLinqExample\src\Domain\obj\Debug\Domain.pdb

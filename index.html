@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title>Dapper-and-dommel-simple-example by filipececcon</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="inner">
+        <h1>Dapper-and-dommel-simple-example</h1>
+        <h2>Exemplo de como implementar de forma simples uma camada de persistência.</h2>
+        <a href="https://github.com/filipececcon/dapper-and-dommel-simple-example" class="button"><small>View project on</small> GitHub</a>
+      </div>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <p>Não é nenhuma novidade usar um <em>ORM _para acessar um banco de dados, mas se na sua empresa e/ou projeto que está trabalhando ainda é usado _ADO.NET</em>, ou se você precisa de uma implementação bem simples mas poderosa em questão de produtividade e funcionalidade, ou até mesmo dar uma boa organizada/refatorada naquele projeto já obsoleto, aqui vai uma boa dica.</p>
+
+<p>Para quem já usou o <strong>Entity Framework</strong> ou <strong>NHibernate</strong> sabe que <em>ORMs</em> poderosos com grandes funcionalidades e implementações, mas às vezes ficamos podados em usá-los por conta de vários fatores.</p>
+
+<p>Se o banco não está muito bem modelado, ou o cenário está maçante de trabalhar com a camada de persistência, contém aquelas milhões de <em>procedures</em> e <em>functions</em>, onde não tem repositório (<em><strong>Repository Pattern</strong></em>), quiçá uma camada de acesso à dados, às vezes usar um ORM mais parrudo pode não ser a melhor saída, talvez onere mais ainda as consultas com o banco e pode deixar a aplicação mais lenta.</p>
+
+<p>O <em>Dapper</em> também não é novidade, teve sua primeira versão em 2011 disponível para download no <em>Nuget</em> . Para você programador vai uma informação legal. Sabe aquela nossa bíblia chamada <em>Stackoverflow</em>? É feito com <em>Dapper</em>. Entretanto em contato com alguns programadores o mencionei, e não o conheciam, e os que conheciam, não sabiam que era possível essa implementação com <em>Linq</em> e _Lambda _e por isso resolvi escrever esse artigo, pois sei que existem vários cenários que podemos melhorar. Nos blogs de hoje em dia se postam várias novidades e se esquecem/não se importam com os casos já começados e que precisam de uma revigorada.</p>
+
+<p>Sei que é inevitável, mas não podemos comparar o uso dessa abordagem com o <em><strong>Entity Framework</strong></em> ou <em><strong>NHibernate</strong></em>, seria até desonesto, mas podemos comparar com o <em>ADO</em>. O que quero mostrar é um modo bem simples e muito produtivo de se trabalhar com o <em>micro-orm</em> e que pode poupar bastante código. Existem milhões de abordagens melhores do que essa, principalmente na gringa, mas acho válido fazer esse artigo. Espero que gostem!</p>
+
+<h3>
+<a id="atenção-toda-essa-abordagem-funciona-até-a-versão-451-do-net-após-isso-não-irá-funcionar-por-conta-de-restrição-dos-pacotes-instalados" class="anchor" href="#aten%C3%A7%C3%A3o-toda-essa-abordagem-funciona-at%C3%A9-a-vers%C3%A3o-451-do-net-ap%C3%B3s-isso-n%C3%A3o-ir%C3%A1-funcionar-por-conta-de-restri%C3%A7%C3%A3o-dos-pacotes-instalados" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Atenção toda essa abordagem funciona até a versão 4.5.1 do .NET após isso não irá funcionar por conta de restrição dos pacotes instalados.</h3>
+
+<p>Você que usa <em>ADO</em>, gostaria de reduzir seu código na camada de dados e usar <em>Linq</em> e expressões Lambda para fazer consultas no banco?</p>
+
+<p><a href="http://filipececcon.com.br/tecnologia/c-usando-dapper-com-fluentmap-linq-e-lambda-para-consultas/">Clique aqui</a> e veja a explicação completa dessa implementação no blog</p>
+        </section>
+
+        <aside id="sidebar">
+          <a href="https://github.com/filipececcon/dapper-and-dommel-simple-example/zipball/master" class="button">
+            <small>Download</small>
+            .zip file
+          </a>
+          <a href="https://github.com/filipececcon/dapper-and-dommel-simple-example/tarball/master" class="button">
+            <small>Download</small>
+            .tar.gz file
+          </a>
+
+          <p class="repo-owner"><a href="https://github.com/filipececcon/dapper-and-dommel-simple-example"></a> is maintained by <a href="https://github.com/filipececcon">filipececcon</a>.</p>
+
+          <p>This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the Architect theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.</p>
+        </aside>
+      </div>
+    </div>
+
+  
+  </body>
+</html>
